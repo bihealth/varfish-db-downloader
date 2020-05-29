@@ -31,6 +31,7 @@ pip install -r requirements.txt
 cd ..
 git clone https://github.com/bihealth/clinvar-tsv.git
 cd clinvar-tsv
+pip install requirements/base.txt
 pip install -e .
 ```
 
