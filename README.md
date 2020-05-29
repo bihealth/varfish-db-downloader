@@ -25,6 +25,15 @@ conda activate varfish-db-downloader
 pip install -r requirements.txt
 ```
 
+### Install clinvar-tsv
+
+```
+cd ..
+git clone https://github.com/bihealth/clinvar-tsv.git
+cd clinvar-tsv
+pip install -e .
+```
+
 ## Usage
 
 ```
